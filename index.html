@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Mini Projects</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="my-16 container mx-auto">
+      <h1 class="text-5xl font-bold text-center">
+        Welcome to my Awesome Count App
+      </h1>
+
+      <div class="mx-auto">
+        <h2 id="count" class="text-center text-5xl my-8 font-bold"><span>0</span></h2>
+        <div class="flex justify-center items-center my-8">
+          <button id="increase" onclick="countDownApp()" class="increase btn btn-primary text-2xl mr-4">+</button>
+          <button id="decrease" class="decrease btn btn-accent text-2xl pl-5 pr-5">-</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
